@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div >
+    <form action="http://127.0.0.1:5000/predict_home_price" method="post" style="display: flex;flex-direction: column;">
+        <label for="Property Name">PropertyName:</label>
+        <input type="text"  name="pname" placeholder="property name">
+
+        <label for="Total sqft">sqft:</label>
+        <input type="text"  name="total_sqft" placeholder="sqft">
+
+
+        <label for="bath">No of baths:</label>
+        <input type="text"  name="bath" placeholder="Baths">
+
+        <label for="bhk">BHK:</label>
+        <input type="text"  name="bhk" placeholder="BHK">
+
+        <button type="submit"style="width: 20%;">SUBMIT</button>
+    </div>
+</body>
+</html>
